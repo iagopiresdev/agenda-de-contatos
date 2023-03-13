@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Josefin", sans-serif;
+    
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+img:hover, button:hover{
+    cursor: pointer;
+}
+
+#agenda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#adicionarContato{
+    display: none;
+    grid-gap: 10px;
+    place-items: center;
+    padding-top: 15px;
+}
+
+#adicionarContato button{
+    background-color: #009879;
+    color: white;
+    padding: 5px;
+    font-family: "Josefin", sans-serif;
+}
+
+.color1{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.color1 thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.color1 th, .color1 td{
+    padding: 12px 15px;
+}
+
+.color1 tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.color1 tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.color1 tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+.color1 tbody tr.selecionado{
+    font-weight: bold;
+    color: #009879;
+}
+
+.alerta {
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin: 10px;
+	font-size: 1rem;
+}
+
+.error {
+	border-color: #e8273b;
+	color: #FFF;
+	background-color: #ed5565;
+}
+
+.sucesso {
+	border-color: #009863;
+	color: #FFF;
+	background-color: #009879;
+}
+
+
+
+
+
+

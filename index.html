@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Agenda de Contatos</h1>
+
+    <div id='agenda'>
+        <table class="color1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>9999-9999</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>8888-8888</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <img src="images/adicionar.png" alt="Adicionar Contato">
+
+        <form id="adicionarContato">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+            <label for="telefone">Telefone</label>
+            <input type="number" name="telefone" id="telefone">
+            <button type="submit">Adicionar</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
